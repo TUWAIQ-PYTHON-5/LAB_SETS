@@ -45,8 +45,9 @@ Nestle_product_ = Nestle_product.items()
 max =0
 for k ,top_selling in Nestle_product_:
     if top_selling > max:
-        max = top_selling
-print(k, max , "US Dollars")
+        max = top_selling 
+        top = k
+print(top, max , "US Dollars")
 print("----------------------------")
 
 Unilever_product_ = Unilever_products.items()
@@ -54,7 +55,8 @@ max =0
 for k ,top_selling in Unilever_product_:
     if top_selling > max:
         max = top_selling
-print(k, max , "US Dollars")
+        top = k
+print(top, max , "US Dollars")
 print("----------------------------")
 
 Nestle_cities_sales  = {"Saudi Arabia", "Oman", "Kuwait", "Egypt", "Jordan", "Sudan"}
