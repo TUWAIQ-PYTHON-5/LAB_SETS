@@ -105,10 +105,10 @@ for value in unionNesUni:
 
 #9
 print()
-interNesUni= (unileverSet & nestleSet)
+interNesUni= (nestleSet - unileverSet)
 #print(unionNesUni)
 counter:int=1
-print("Interscet:")
+print("Subtract:")
 for value in interNesUni:
     print(counter, "- ", value) 
     counter+=1
