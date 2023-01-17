@@ -4,7 +4,9 @@ Nestle_product = {
 "KitKat"  : 34456432,
 "Nescafe" : 14106132,
 "Maggi"   : 9960312,
-"Nido"    : 44506003
+"Nido"    : 44506003,
+
+
     
 }
 
@@ -13,7 +15,9 @@ Unilever_products ={
 "Lipton"    : 23456000,
 "Breyers"   : 1235891,
 "HellManns" : 17241412,
-"Marmite"   : 11715324
+"Marmite"   : 11715324,
+
+
 
 }
 
@@ -28,9 +32,8 @@ count = 0
 count2 = 0
 for  i in  Nestle_product.items():
     count = count + 1
-    for j in Unilever_products.items():
+for j in Unilever_products.items():
         count2 = count2 + 1
-        break
 if count > count2:
     print("Nestle products ")
 elif count < count2:
