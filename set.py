@@ -54,21 +54,18 @@ for k ,top_selling in Unilever_product_:
 print(k, max , "US Dollars")
 print("----------------------------")
 
-
 Nestle_cities_sales  = {"Saudi Arabia", "Oman", "Kuwait", "Egypt", "Jordan", "Sudan"}
 Unilever_cities_sales = {"Saudi Arabia", "Kuwait", "Iraq", "Morocco", "Yemen", "United Emirates"}
 
-for member in Nestle_cities_sales:
-    print("Nestle :, cities sales : " + member )
-print()
-for member in Unilever_cities_sales:
-    print(end="")
-    print("Unilever :, cities sales : "  + member  )
+for cities in Nestle_cities_sales.union(Unilever_cities_sales):
+    print (cities)
 
+print("----------------------------")
+for cities in Nestle_cities_sales.intersection(Unilever_cities_sales):
+    print (cities)
 print("----------------------------")
 
 Nestle_cities_sales.difference(Unilever_cities_sales)
-
 Uniqe_sales_cities =Nestle_cities_sales - Unilever_cities_sales 
 for cities in Uniqe_sales_cities:
     print(cities)
