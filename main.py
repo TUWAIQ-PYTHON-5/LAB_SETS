@@ -26,14 +26,12 @@ for key in nestleProduct:
 print('\n')
 
 #- Print which of the companies has more products that the other company.###
-lengthOfUnilever:int = len(unileverProduct)
-lengthOfNestle:int = len(nestleProduct)
-if(lengthOfUnilever > lengthOfNestle):
+if(len(unileverProduct) > len(nestleProduct)):
     print("The Product in Unilever is more than the Product in Nestle")
-elif(lengthOfUnilever > lengthOfNestle):
+elif(len(unileverProduct) < len(nestleProduct)):
     print("The Product in Nestle is more than the Product in Unilever")
 else:
-    print("They are Equal")
+    print("The products are Equal")
 
 print('\n')
 
