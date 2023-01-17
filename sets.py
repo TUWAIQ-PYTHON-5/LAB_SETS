@@ -22,23 +22,23 @@ if not len(nestleSales) == len(unileverSales):
 else:
     print("they have equal products")
 
-temp = 0
+topSellingValue = 0
 for value in nestleSales:
-    if int(nestleSales[value]) > 0:
+    if int(nestleSales[value]) > int(topSellingValue):
         topSellingValue = nestleSales[value]
         topSellingProduct = value
     else:
         continue
-print(f"The top selling products is: {topSellingProduct}")
+print(f"The top selling products in Nestle is: {topSellingProduct}")
 
-temp = 0
+topSellingValue = 0
 for value in unileverSales:
-    if int(unileverSales[value]) > 0:
-        topSelling = unileverSales[value]
+    if int(unileverSales[value]) > int(topSellingValue):
+        topSellingValue = unileverSales[value]
         topSellingProduct = value
     else:
         continue
-print(f"The top selling products is: {topSellingProduct}")
+print(f"The top selling products in Unilever is: {topSellingProduct}")
 
 allCities = unileversCountries.union(nestlesCountries)
 print("All the cities that sell the products:")
