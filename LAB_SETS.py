@@ -7,9 +7,9 @@ nestleProducts = { "KitKat" : "34456432", "Nescafe" : "14106132",
 # - Print each product sold by Nestle and the sales figures / numbers  for that product.
 print("product sold by Nestle and the sales: ")
 for product, sales in nestleProducts.items() :
-    print(product, sales)
+    print(product, sales+" US Dollars")
 
-
+print("*"*10)
 
 # - Create a variable to hold the values of Unilever products (Use a dictionary)
 unileverProducts = { "Lipton" : "23456000", "Breyers" : "1235891", 
@@ -18,7 +18,7 @@ unileverProducts = { "Lipton" : "23456000", "Breyers" : "1235891",
 # - Print each product sold by Unilever and the sales figures / numbers  for that product.
 print("product sold by Unilever and the sales: ")
 for product, sales in unileverProducts.items() :
-    print(product, sales)
+    print(product, sales+" US Dollars")
 
 # - Print which of the companies has more products that the other company.
 numberOfNestleProducts = len(nestleProducts)
@@ -37,9 +37,8 @@ for product in nestleProducts :
     if int(nestleProducts[product]) > int(highestSales) :
         highestSales = nestleProducts[product]
         topSalesProduct = product
-    else :
-        continue
-print("highest sales product is "+topSalesProduct+" :" + highestSales)
+    
+print("highest sales product is "+topSalesProduct+" :" + highestSales+"US Dollars")
 
 # - Print the top selling product from Unilever with sales figures.
 highestSales2 = 0
@@ -47,9 +46,8 @@ for product in unileverProducts :
     if int(unileverProducts[product]) > int(highestSales2) :
         highestSales2 = unileverProducts[product]
         topSalesProduct = product
-    else :
-        continue
-print("highest sales product is "+topSalesProduct+" :" + highestSales2)
+   
+print("highest sales product is "+topSalesProduct+" :" + highestSales2+"US Dollars")
 
 
 
