@@ -15,8 +15,8 @@
 
 ##### Lipton : 23,456,000 US Dollars
 ##### Breyers : 1,235,891 US Dollars
-##### HellManns : 17,241,412 US Dollars
-##### Marmite : 11,715,324 US Dollars
+ #### HellManns : 17,241,412 US Dollars
+ ## Marmite : 11,715,324 US Dollars
       
 
 ## Monica has 2 tables containing the countries in which Unilever and Nestle sell the products:
@@ -25,15 +25,27 @@
 
 
 ## Using what you've learned during . Please do the following :
-- Create a variable to hold the values of Nestle products (use a dicitionary)
-- Create a variable to hold the values of Unilever products (Use a dictionary)
+# - Create a variable to hold the values of Nestle products (use a dicitionary)
+
+# - Create a variable to hold the values of Unilever products (Use a dictionary)
+
 - Print each product sold by Unilever and the sales figures / numbers  for that product.
+
 - Print each product sold by Nestle and the sales figures / numbers  for that product.
+
+#_____________
+
 - Print which of the companies has more products that the other company.
+
 - Print the top selling product from Nestle with sales figures.
+
 - Print the top selling product from Unilever with sales figures.
+
 - Using Sets & a loop, print all the cities Unilever & Nestle sell their products in.
+
 - Using Sets & a loop, print the cities that both Nestle & Unilver sell in common.
+
+
 - Using Sets & a loop, print the cities Nestle sells in , but Unilver doens't sell in.
 
 
